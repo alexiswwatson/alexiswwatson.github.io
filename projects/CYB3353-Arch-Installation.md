@@ -16,7 +16,7 @@
 1. power on the VM and boot into the live environment
 2. verify boot mode with **cat /sys/firmware/efi/fw_platform_size**
 3. verify internet connection with **ip link** and **ping -c 10 8.8.8.8**
-4. ==DON'T WORRY ABOUT TIMEZONES==
+4. <ins>DON'T WORRY ABOUT TIMEZONES<ins />
 	- setting timezones with **systemd-firstboot** and **timedatectl** requires a reboot to enable changes—messes everything up if done before the full installation
 	- I made this mistake and needed to reset the VM from the ISO
 
