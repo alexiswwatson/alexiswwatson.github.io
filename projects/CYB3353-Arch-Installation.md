@@ -1,4 +1,4 @@
-#CYB3353 Arch Installation
+# CYB3353 Arch Installation
 ## Before Installation
 ### Virtual Machine
 - *VMware Workstation Pro 17.6.1*
