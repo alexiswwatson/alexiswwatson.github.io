@@ -1,2 +1,2 @@
 # Projects
-[CYB3353-Arch-Install](CYB3353-Arch-Install.md)
+[CYB3353 Arch Installation](CYB3353-Arch-Installation.md)
