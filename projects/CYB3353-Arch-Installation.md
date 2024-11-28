@@ -130,3 +130,6 @@
 	4. extract the source with **tar -xvf gnome-shell-extension-dash-to-dock.tar.gz** to acquire uncompressed source files
 	5. enter the new package directory with **cd gnome-shell-extension-dash-to-dock**
 	6. compile and install the package with **makepkg -sic**
+
+### Final Results
+[Arch Installation](Arch Installation.png)
