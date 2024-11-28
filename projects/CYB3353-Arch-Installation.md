@@ -132,4 +132,4 @@
 	6. compile and install the package with **makepkg -sic**
 
 ### Final Results
-[Arch Installation](Arch-Installation.png)
+![Arch Installation](Arch-Installation.png)
