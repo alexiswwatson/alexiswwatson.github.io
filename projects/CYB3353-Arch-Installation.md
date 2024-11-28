@@ -118,3 +118,15 @@
 		3. `exec gnome-session`
 	- edit *.zprofile* to start GNOME
 		- `if [[ -z $DISPLAY && $(tty) == /dev/tty1 ]]; then XDG_SESSION_TYPE=x11 GDK_BACKEND=x11 exec startx; fi`
+
+### Additional Customization
+1. install *neofetch* to easily display system information with a fun ASCII graphic
+2. install *terminator* for a more customizable and modular terminal
+	- make *terminator* the default terminal in GNOME GUI settings
+3. install *gnome-shell-extension-dash-to-dock* from the AUR for a dock on the GNOME desktop
+	1. install *base-devel* to compile AUR source files
+	2. create *~/.builds/* directory to store AUR builds
+	3. download a package snapshot with **curl -L -O https://aur.archlinux.org/cgit/aur.git/snapshot/gnome-shell-extension-dash-to-dock.tar.gz** in the AUR build directory
+	4. extract the source with **tar -xvf gnome-shell-extension-dash-to-dock.tar.gz** to acquire uncompressed source files
+	5. enter the new package directory with **cd gnome-shell-extension-dash-to-dock**
+	6. compile and install the package with **makepkg -sic**
