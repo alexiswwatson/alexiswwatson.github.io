@@ -30,7 +30,8 @@ nano docker-compose.yml
 3. Add the following configuration to docker-compose.yml: 
 
 **yaml**  **docker-compose.yml**  
-  GNU nano 8.1                                                          
+```
+GNU nano 8.1                                                          
 version: '3.8'  
 services:  
   wireguard:  
