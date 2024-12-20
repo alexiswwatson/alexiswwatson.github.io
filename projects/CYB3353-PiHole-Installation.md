@@ -12,22 +12,22 @@
 1. create *pihole/*
 2. create *pihole.yml* as follows:
 ```
-  services:
-    pihole:
-      container_name: pihole
-      image: pihole/pihole:latest
-    network_mode: "host"
-      ports:
-        - "53:53/tcp"
-        - "53:53/udp"
-        - "80:80/tcp"
-      environment:
-        TZ: 'America/Chicago'
-        WEBPASSWORD: '******'
-      volumes:
-        - './etc-pihole:/etc/pihole'
-        - './etc-dnsmasq.d:/etc/dnsmasq.d'
-      restart: unless-stopped
+services:
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+  network_mode: "host"
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "80:80/tcp"
+    environment:
+      TZ: 'America/Chicago'
+      WEBPASSWORD: '******'
+    volumes:
+      - './etc-pihole:/etc/pihole'
+      - './etc-dnsmasq.d:/etc/dnsmasq.d'
+    restart: unless-stopped
 ```
 3. start the Docker container with **docker-compose up -d**
 
