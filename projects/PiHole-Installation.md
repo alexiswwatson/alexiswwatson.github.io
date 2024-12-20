@@ -42,3 +42,4 @@
 
 # Verify PiHole Installation
 - visit `pi.hole/admin` in a web browser and log in using the *WEBPASSWORD* variable declared earlier
+![PiHole Installation](PiHole-Installation.png)
