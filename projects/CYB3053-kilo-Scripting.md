@@ -1,4 +1,4 @@
-# CYB3053 kilo Scripting
+# CYB3053 kilo Programming
 ## Information
 This is a variation on **antirez's** [_kilo_](https://github.com/antirez/kilo) text editor. <br />
 The script almost exactly follows **snaptoken's** walkthrough with their own variation found [here](https://viewsourcecode.org/snaptoken/kilo/index.html). <br />
