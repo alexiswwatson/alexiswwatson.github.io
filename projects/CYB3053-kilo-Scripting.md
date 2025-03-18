@@ -6,7 +6,7 @@ I added a small section to highlight the "NULL" keyword. <br />
 I will almost certainly revisit this project (and this page) in the future. <br />
 
 ## Code
-Here is the script: [kilo.c](projects/CYB3053-kilo.c) <br />
+Here is the script: [kilo.c](CYB3053-kilo.c) <br />
 
 ## Images
 Here is the _kilo_ license viewed through the text editor: <br />
