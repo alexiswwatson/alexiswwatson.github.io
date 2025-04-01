@@ -1,5 +1,5 @@
 # Projects
-This is a collection of technical endeavors, primarily from courses. <br />
+This is a collection of technical endeavors. <br />
 <br />
 [CYB3353 Arch Installation](CYB3353-Arch-Installation.md) <br />
 [CYB3353 PiHole Installation](CYB3353-PiHole-Installation.md) <br />
