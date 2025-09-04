@@ -4,3 +4,4 @@ This site is mostly experimental, but also hosts some things from my time at The
 Here are my things: <br />
 [Projects](projects/README.md) <br />
 [Papers](papers/README.md) <br />
+[Debate Resources](debate/README.md) <br />
